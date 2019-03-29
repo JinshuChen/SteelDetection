@@ -59,4 +59,4 @@ The row datasets locate in [origin_img](https://github.com/JinshuChen/SteelDetec
 
 The datasets contain 4 different shapes of steel, which are circle steel (circle_steel), triangle steel (sigma_steel), rectangle steel with two holes (THsquare_steel) and rectangle steel without holes (NHsquare_steel).  
 
-<div align=center><img width="400" height="200" src="https://github.com/JinshuChen/SteelDetection/blob/master/presentation_img/D566A39B-594E-4ED0-BB01-1742F139C62A.png"/></div>
+<div align=center><img width="600" height="350" src="https://github.com/JinshuChen/SteelDetection/blob/master/presentation_img/D566A39B-594E-4ED0-BB01-1742F139C62A.png"/></div>
