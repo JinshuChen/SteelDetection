@@ -1,7 +1,8 @@
+<!-- TOC -->autoauto- [Steel Detection](#steel-detection)auto    - [Table of Contents](#table-of-contents)auto    - [Written in front](#written-in-front)auto    - [References](#references)auto    - [Main Dependencies](#main-dependencies)auto    - [Usage](#usage)auto        - [Installation](#installation)autoauto<!-- /TOC -->
+
 # Steel Detection  
 
 ## Table of Contents  
-<!-- TOC -->autoauto- [Steel Detection](#steel-detection)auto    - [Table of Contents](#table-of-contents)auto    - [Written in front](#written-in-front)auto    - [References](#references)auto    - [Main Dependencies](#main-dependencies)auto    - [Usage](#usage)auto        - [Installation](#installation)autoauto<!-- /TOC -->
 
 ## Written in front  
 
