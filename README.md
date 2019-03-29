@@ -23,12 +23,12 @@ The environment dependencies of the project mainly includes:
 
 For TensorFlow, run :  
 
-'<#For GPU(recommended)>'  
-'<pip3 install tensorflow-gpu>'  
-'<#For CPU>'  
-'<pip3 install tensorflow>'  
+'#For GPU(recommended)'  
+'pip3 install tensorflow-gpu'  
+'#For CPU'  
+'pip3 install tensorflow'  
 
-For more details of installation of TenosrFlow, you can visit [Tensorflow installation instructions](https://www.tensorflow.org/install/)  
+For more details of installation of TenosrFlow, you can visit [Tensorflow installation instructions](https://www.tensorflow.org/install/).  
 
 For OpenCV, run :  
 
