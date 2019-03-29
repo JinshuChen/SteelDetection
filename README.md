@@ -1,29 +1,40 @@
-<!-- TOC -->autoauto- [Steel Detection](#steel-detection)auto    - [Table of Contents](#table-of-contents)auto    - [Written in front](#written-in-front)auto    - [References](#references)auto    - [Main Dependencies](#main-dependencies)auto    - [Usage](#usage)auto        - [Installation](#installation)autoauto<!-- /TOC -->
-
 # Steel Detection  
 
 ## Table of Contents  
 
-## Written in front  
+<!-- TOC -->
 
-As my Graduation Design, the project cost me almost 5 months to complete.5 months ago, i was new to deep learning and knew nothing about how to use TensorFlow to solve a computer vision problem.So at least, I'm quiet happy to conque the chanllage though the code of the project is mostly from the APIs supplied from TensoFlow Object Detection.Really appreciate the help of my friends and myriad articles on the Internet.  
+- [Steel Detection](#steel-detection)
+    - [Table of Contents](#table-of-contents)
+        - [Written in front](#written-in-front)
+        - [References](#references)
+        - [Main Dependencies](#main-dependencies)
+        - [Usage](#usage)
+            - [Installation](#installation)
+            - [Datasets](#datasets)
 
-## References  
+<!-- /TOC -->
+
+### Written in front  
+
+As my Graduation Design, the project cost me almost 5 months to complete.5 months ago, i was new to deep learning and knew nothing about how to use TensorFlow to solve a computer vision problem. So at least, I'm quiet happy to conque the chanllage though the code of the project is mostly from the APIs supplied from TensoFlow Object Detection. Really appreciate the help of my friends and myriad articles on the Internet.  
+
+### References  
 
 [TensorFlow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)  
 
-## Main Dependencies  
+### Main Dependencies  
 
-The environment dependencies of the project mainly includes:  
+The environment and dependencies of the project mainly includes:  
 
 * **Python3.6.7**  
 * **TensorFlow(>=1.12.0)**  
 * **opencv**  
 * **TensorFlow Object Detection API(0.1.0)**  
 
-## Usage  
+### Usage  
 
-### Installation  
+#### Installation  
 
 For TensorFlow, run :  
 
@@ -38,5 +49,14 @@ For OpenCV, run :
 
     pip3 install opencv-python  
 
-For TensorFlow Object Detection, visit [TensorFlow Object Detection API Installation instructions](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md) for the complete steps.  
+For TensorFlow Object Detection :  
 
+visit [TensorFlow Object Detection API Installation instructions](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md) for complete steps.  
+
+#### Datasets  
+
+The row datasets locate in [origin_img](https://github.com/JinshuChen/SteelDetection/tree/master/origin_img). There are nearly 200 pics in the folder and each picture has 100~300 steel of diffrent shapes. All the pictures came from different construction sites in Shanghai, which are all shot at **``random illumination environment``**. In fact, not all pics are proper for training. After selected, there remains about 80 pics with high-quality objections, which make up [the training datasets](https://github.com/JinshuChen/SteelDetection/tree/master/train_data), [the evaluation datasets](https://github.com/JinshuChen/SteelDetection/tree/master/eval_data) and [the test datasets](https://github.com/JinshuChen/SteelDetection/tree/master/test_data).  
+
+The datasets contain 4 different shapes of steel, which are circle steel (circle_steel), triangle steel (sigma_steel), rectangle steel with two holes (THsquare_steel) and rectangle steel without holes (NHsquare_steel).  
+
+![]
