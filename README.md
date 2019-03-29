@@ -33,7 +33,7 @@ The environment and dependencies of the project mainly includes:
 
 * **Python3.6.7**  
 * **TensorFlow(>=1.12.0)**  
-* **opencv**  
+* **OpenCV**  
 * **TensorFlow Object Detection API(0.1.0)**  
 
 ### Usage  
