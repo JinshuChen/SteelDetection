@@ -66,3 +66,6 @@ The datasets contain 4 different shapes of steel, which are circle steel (circle
 <div align=center><img width="600" height="350" src="https://github.com/JinshuChen/SteelDetection/blob/master/presentation_img/img1.png"/></div>
 
 **Note that** steel in `image e` and `image f` has pins inside, which means the interference to the detection model.
+
+The classes of steel in training datasets dietributed as the following picture, which shows that the number of 4 classes and the defficulty of detection are positive correlated.
+<div align=center><img width="600" height="350" src="https://github.com/JinshuChen/SteelDetection/blob/master/presentation_img/img3.png"/></div>
