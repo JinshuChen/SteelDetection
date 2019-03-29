@@ -1,0 +1,17 @@
+item {
+  id: 1
+  name: 'circle_steel'
+}
+item {
+  id: 2
+  name: 'NHsquare_steel'
+}
+item {
+  id: 3
+  name: 'sigma_steel'
+}
+item {
+  id: 4
+  name: 'THsquare_steel'
+}
+
