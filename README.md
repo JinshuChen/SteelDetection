@@ -55,10 +55,14 @@ visit [TensorFlow Object Detection API Installation instructions](https://github
 
 #### Datasets  
 
-The row datasets locate in [origin_img](https://github.com/JinshuChen/SteelDetection/tree/master/origin_img). There are nearly 200 pics in the folder and each picture has 100~300 steel of diffrent shapes. All the pictures came from different construction sites in Shanghai, which are all shot at **`random illumination environment`**. In fact, not all pics are proper for training. After selected, there remains about 80 pics with high-quality objections, which make up [the training datasets](https://github.com/JinshuChen/SteelDetection/tree/master/train_data), [the evaluation datasets](https://github.com/JinshuChen/SteelDetection/tree/master/eval_data) and [the test datasets](https://github.com/JinshuChen/SteelDetection/tree/master/test_data).  
+The row datasets locate in [origin_img](https://github.com/JinshuChen/SteelDetection/tree/master/origin_img). There are nearly 200 pics in the folder and each picture has 100~300 steel of diffrent shapes. All the pictures came from different construction sites in Shanghai, which are all shot at **`random illumination environment`**. 
+
+<div align=center><img width="600" height="350" src="https://github.com/JinshuChen/SteelDetection/blob/master/presentation_img/img2.png"/></div>
+
+In fact, not all pics are proper for training. After selected, there remains about 80 pics with high-quality objections, which make up [the training datasets](https://github.com/JinshuChen/SteelDetection/tree/master/train_data), [the evaluation datasets](https://github.com/JinshuChen/SteelDetection/tree/master/eval_data) and [the test datasets](https://github.com/JinshuChen/SteelDetection/tree/master/test_data).  
 
 The datasets contain 4 different shapes of steel, which are circle steel (circle_steel), triangle steel (sigma_steel), rectangle steel with two holes (THsquare_steel) and rectangle steel without holes (NHsquare_steel).  
 
 <div align=center><img width="600" height="350" src="https://github.com/JinshuChen/SteelDetection/blob/master/presentation_img/img1.png"/></div>
 
-**Note that** steel in `image e` and `image f` has the pin inside, which means the interference to the detection model.
+**Note that** steel in `image e` and `image f` has pins inside, which means the interference to the detection model.
