@@ -6,7 +6,7 @@
 
 - [Steel Detection](#steel-detection)
     - [Table of Contents](#table-of-contents)
-        - [Written in front](#written-in-front)
+        - [Preface](#preface)
         - [References](#references)
         - [Main Dependencies](#main-dependencies)
         - [Usage](#usage)
@@ -14,10 +14,12 @@
             - [Datasets](#datasets)
             - [Training and evaluation](#training-and-evaluation)
             - [Test](#test)
+        - [TODO List](#todo-list)
+        - [Postscript](#postscript)
 
 <!-- /TOC -->
 
-### Written in front  
+### Preface  
 
 As my Graduation Design, the project cost me almost 5 months to complete.5 months ago, i was new to deep learning and knew nothing about how to use TensorFlow to solve a computer vision problem. So at least, I'm quiet happy to conque the chanllage though the code of the project is mostly from the APIs supplied from TensoFlow Object Detection. Really appreciate the help of my friends and myriad articles on the Internet.  
 
@@ -120,3 +122,11 @@ Finally, if you are so lucky that you've trained such a pretty model as what I'v
 
 <div align=center><img width="1100" height="300" src="https://github.com/JinshuChen/SteelDetection/blob/master/presentation_img/img4.png"/></div>
 
+### TODO List
+- [ ] remove the dependencies of TensorFlow Object Detection API.
+- [ ] add more data to the datasets.
+- [ ] complete the SteelDetection Project for Android.
+
+### Postscript
+
+This project works on the PC and it's only half of my Graduation Design. Next step, the model will be assigned on the mobile devices using TensorFlow.Lite. It's coming soon!
