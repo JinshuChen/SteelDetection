@@ -118,5 +118,5 @@ Remeber to change the path and classes in the script.
 
 Finally, if you are so lucky that you've trained such a pretty model as what I've got :laughing:, you'll get the results after you run the `detection.py` : 
 
-<div align=center><img width="1000" height="350" src="https://github.com/JinshuChen/SteelDetection/blob/master/presentation_img/img4.png"/></div>
+<div align=center><img width="1100" height="300" src="https://github.com/JinshuChen/SteelDetection/blob/master/presentation_img/img4.png"/></div>
 
