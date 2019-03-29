@@ -23,7 +23,7 @@ The environment dependencies of the project mainly includes:
 
 For TensorFlow, run :  
 
-'#For GPU(recommended)'  
+    #For GPU(recommended)  
 'pip3 install tensorflow-gpu'  
 '#For CPU'  
 'pip3 install tensorflow'  
